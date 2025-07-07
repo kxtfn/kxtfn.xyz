@@ -1,16 +1,45 @@
+* {  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  background-color: #242038;
+  min-height: 100vh
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  fill: #F7ECE1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 20pt;
+  color: #F7ECE1;
+  margin-left: 55pt;
+  margin-bottom: 5pt;
+  margin-top: 15pt;
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+}
+
+p {
+  font-size: 20pt;
+  color: #F7ECE1;
+  text-align: left;
+  margin-left: 75px;
+  margin-right: 55pt;
+  font-family: Montserrat, sans-serif;
+}
+
+footer p {
+  text-align: center;
+  font-size: 10pt;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .App-header {
@@ -20,7 +49,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -28,11 +56,17 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-box {
+  background-color: #2f2944;     
+  border-radius: 10px;           
+  max-width: 1300px;
+  margin: 2rem auto;
+  transition: all 0.3s ease;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
 }
