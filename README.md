@@ -20,7 +20,6 @@ This is my personal portfolio site made from scratch for the sake of learning, p
 - **React** + **TypeScript**
 - **CSS** (hand styling, no UI libraries)
 - **Git** + **GitHub** - version control
-- Hosting is planned via GitHub Pages / Vercel
 
 ---
 
@@ -41,3 +40,7 @@ const me = {
  interests: ["Computer hardware", "Networks", "Design", "Drawing", "Frontend"],
  skills: ["HTML", "CSS", "Photoshop", "Basic Python", "React (starting)", "TS (in process)"],
 };
+
+---
+
+✅ https://kxtfn.github.io/kxtfn.xyz/
