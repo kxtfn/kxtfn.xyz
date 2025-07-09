@@ -12,13 +12,11 @@ export default function Projects() {
         </p>
         <p>
         The lab is divided into four core modules, each aimed at helping users grasp key computer science concepts:</p>
-        <p>- "Комп’ютерні компоненти" — A visual breakdown of the internal components of a PC: CPU, RAM, GPU, motherboard, storage, and their interactions. <p></p>
+        <p>- "Комп’ютерні компоненти" — A visual breakdown of the internal components of a PC: CPU, RAM, GPU, motherboard, storage, and their interactions.</p>
         <img src={require('./img/lab1.png')} className="image" alt="Virtual Laboratory"/>
-        </p>
         <p>
-        - "Периферійні пристрої" — An interactive showcase of input/output devices such as keyboards, mice, printers, and monitors.
+        - "Периферійні пристрої" — An interactive showcase of input/output devices such as keyboards, mice, printers, and monitors.</p>
         <img src={require('./img/lab2.png')} className="image" alt="Virtual Laboratory"/>
-        </p>
         <p>
         - "Лабораторія конвертування систем числення" — A hands-on tool for converting between binary, decimal, octal, and hexadecimal systems.
         </p>
