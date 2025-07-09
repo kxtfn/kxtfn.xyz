@@ -1,7 +1,7 @@
 # 💻 Personal Portfolio - kxtfn.xyz
 
 Hi, I'm Igor aka Evil aka kxtfn 👾 
-This is my personal portfolio site made from scratch for the sake of learning, practicing and showing myself as an aspiring frontend developer.
+This is my personal portfolio site made from scratch for the sake of learning, practicing and showing myself as an aspiring frontend developer. The site will gradually be improved and updated with new items.
 
 ---
 
