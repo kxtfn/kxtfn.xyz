@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kxtfn.xyz/static/css/main.ee28243a.css",
-    "main.js": "/kxtfn.xyz/static/js/main.345dfacf.js",
+    "main.css": "/kxtfn.xyz/static/css/main.fd80f650.css",
+    "main.js": "/kxtfn.xyz/static/js/main.770cd2b3.js",
     "static/js/453.cfd76a65.chunk.js": "/kxtfn.xyz/static/js/453.cfd76a65.chunk.js",
     "static/media/diploma.png": "/kxtfn.xyz/static/media/diploma.87e9765220b6f2a5dad9.png",
     "static/media/Montserrat-Regular.ttf": "/kxtfn.xyz/static/media/Montserrat-Regular.cfbf0da06d33097e6d0a.ttf",
@@ -12,12 +12,12 @@
     "static/media/lab3.png": "/kxtfn.xyz/static/media/lab3.1c0c85b84ce9b75fc0a2.png",
     "static/media/logo.svg": "/kxtfn.xyz/static/media/logo.025f10bd26a0d11c3e34e3aaf1cc899a.svg",
     "index.html": "/kxtfn.xyz/index.html",
-    "main.ee28243a.css.map": "/kxtfn.xyz/static/css/main.ee28243a.css.map",
-    "main.345dfacf.js.map": "/kxtfn.xyz/static/js/main.345dfacf.js.map",
+    "main.fd80f650.css.map": "/kxtfn.xyz/static/css/main.fd80f650.css.map",
+    "main.770cd2b3.js.map": "/kxtfn.xyz/static/js/main.770cd2b3.js.map",
     "453.cfd76a65.chunk.js.map": "/kxtfn.xyz/static/js/453.cfd76a65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee28243a.css",
-    "static/js/main.345dfacf.js"
+    "static/css/main.fd80f650.css",
+    "static/js/main.770cd2b3.js"
   ]
 }
