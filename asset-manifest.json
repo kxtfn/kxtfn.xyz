@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/kxtfn.net/static/css/main.1cf8cebf.css",
-    "main.js": "/kxtfn.net/static/js/main.a799a748.js",
-    "static/js/453.6f612ec4.chunk.js": "/kxtfn.net/static/js/453.6f612ec4.chunk.js",
-    "static/media/diploma.png": "/kxtfn.net/static/media/diploma.87e9765220b6f2a5dad9.png",
-    "static/media/Montserrat-Regular.ttf": "/kxtfn.net/static/media/Montserrat-Regular.cfbf0da06d33097e6d0a.ttf",
-    "static/media/lab.png": "/kxtfn.net/static/media/lab.6f5aabfc83799a80ac8c.png",
-    "static/media/lab1.png": "/kxtfn.net/static/media/lab1.141e6977c48519a77bd8.png",
-    "static/media/rp.jpg": "/kxtfn.net/static/media/rp.a80c0142b3c5853317a6.jpg",
-    "static/media/lab2.png": "/kxtfn.net/static/media/lab2.1ce6809e1195cb62c6bf.png",
-    "static/media/lab3.png": "/kxtfn.net/static/media/lab3.1c0c85b84ce9b75fc0a2.png",
-    "static/media/logo.svg": "/kxtfn.net/static/media/logo.025f10bd26a0d11c3e34e3aaf1cc899a.svg",
-    "index.html": "/kxtfn.net/index.html",
-    "main.1cf8cebf.css.map": "/kxtfn.net/static/css/main.1cf8cebf.css.map",
-    "main.a799a748.js.map": "/kxtfn.net/static/js/main.a799a748.js.map",
-    "453.6f612ec4.chunk.js.map": "/kxtfn.net/static/js/453.6f612ec4.chunk.js.map"
+    "main.css": "/kxtfn.xyz/static/css/main.ee28243a.css",
+    "main.js": "/kxtfn.xyz/static/js/main.345dfacf.js",
+    "static/js/453.cfd76a65.chunk.js": "/kxtfn.xyz/static/js/453.cfd76a65.chunk.js",
+    "static/media/diploma.png": "/kxtfn.xyz/static/media/diploma.87e9765220b6f2a5dad9.png",
+    "static/media/Montserrat-Regular.ttf": "/kxtfn.xyz/static/media/Montserrat-Regular.cfbf0da06d33097e6d0a.ttf",
+    "static/media/lab.png": "/kxtfn.xyz/static/media/lab.6f5aabfc83799a80ac8c.png",
+    "static/media/lab1.png": "/kxtfn.xyz/static/media/lab1.141e6977c48519a77bd8.png",
+    "static/media/rp.jpg": "/kxtfn.xyz/static/media/rp.a80c0142b3c5853317a6.jpg",
+    "static/media/lab2.png": "/kxtfn.xyz/static/media/lab2.1ce6809e1195cb62c6bf.png",
+    "static/media/lab3.png": "/kxtfn.xyz/static/media/lab3.1c0c85b84ce9b75fc0a2.png",
+    "static/media/logo.svg": "/kxtfn.xyz/static/media/logo.025f10bd26a0d11c3e34e3aaf1cc899a.svg",
+    "index.html": "/kxtfn.xyz/index.html",
+    "main.ee28243a.css.map": "/kxtfn.xyz/static/css/main.ee28243a.css.map",
+    "main.345dfacf.js.map": "/kxtfn.xyz/static/js/main.345dfacf.js.map",
+    "453.cfd76a65.chunk.js.map": "/kxtfn.xyz/static/js/453.cfd76a65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cf8cebf.css",
-    "static/js/main.a799a748.js"
+    "static/css/main.ee28243a.css",
+    "static/js/main.345dfacf.js"
   ]
 }
