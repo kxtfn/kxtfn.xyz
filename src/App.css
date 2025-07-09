@@ -1,25 +1,56 @@
-* {  
-  box-sizing: border-box;
+html, body {
   margin: 0;
   padding: 0;
+  background-color: #242038; 
+}
+
+* {  
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 .App {
-  text-align: center;
   background-color: #242038;
-  min-height: 100vh
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  fill: #F7ECE1;
+  display: block;
+  height: 100px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Montserrat, sans-serif;
+  font-size: 20pt;
+  border-bottom: 3px solid #8D86C9;
+  padding-bottom: 20px;
+  margin: 30px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #F7ECE1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #8D86C9;
 }
 
 h1 {
-  font-size: 20pt;
+  font-size: 18pt;
   color: #F7ECE1;
-  margin-left: 55pt;
+  margin-left: 25pt;
   margin-bottom: 5pt;
   margin-top: 15pt;
   text-align: left;
@@ -27,41 +58,56 @@ h1 {
 }
 
 p {
-  font-size: 20pt;
+  font-size: 16pt;
   color: #F7ECE1;
-  text-align: left;
-  margin-left: 75px;
-  margin-right: 55pt;
+  text-align: justify;
+  margin-left: 25pt;
+  margin-right: 25pt;
   font-family: Montserrat, sans-serif;
 }
 
 footer p {
   text-align: center;
   font-size: 10pt;
-  margin-bottom: 20px;
-  margin-top: 20px;
+}
+
+footer {
+  background-color: #2f2944;
+  color: #F7ECE1;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.content-box {
+  flex: 1;
+  background-color: #2f2944;     
+  border-radius: 15px;          
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  transition: all 0.3s ease;
 }
 
-.content-box {
-  background-color: #2f2944;     
-  border-radius: 10px;           
-  max-width: 1300px;
-  margin: 2rem auto;
-  transition: all 0.3s ease;
+.lab-image {
+  display: block;
+  width: 100%;
+  height: 95%;
+  width: 95%;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.section-divider {
+  border-bottom: 3px solid #8D86C9; 
+  margin: 30px;
 }
 
 @font-face {

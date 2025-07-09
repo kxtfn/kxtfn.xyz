@@ -1,25 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './img/logo.svg';
+import Projects from './projects';
+import Blog from './blog';
+import About from './about';
+import Home from './home';
 import './App.css';
 
 function App() {
+  const [page, setPage] = useState('home');
   return (
     <div className="App">
       <div className="content-box">
-        <header><p>kxtfn</p></header>
-    
-        <main>
+        <header className="navbar">
+        <a href="#" className="logo-link" onClick={() => setPage('home')}>
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>Welcome!</h1>
-          <p>You've landed on my personal page — a place where I showcase side projects, 
-          fun features, and random things I'm working on.</p>
-          <h1>About me</h1>
-          <p>This is a simple React application.</p>
+        </a>
+          <nav className="nav-links">
+            <a href="#" onClick={(e) => { e.preventDefault(); setPage('about'); }}>About</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); setPage('projects'); }}>Projects</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); setPage('blog'); }}>Blog</a>
+          </nav>
+        </header>
+
+        <main>
+          {page === 'home' && <Home />}
+          {page === 'projects' && <Projects/>}
+          {page === 'blog' && <Blog />}
+          {page === 'about' && <About />}
         </main>
     
         <footer>
           <p>© 2025 Igor</p>
         </footer>
+
       </div>
     </div>
   );
