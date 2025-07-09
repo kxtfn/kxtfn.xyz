@@ -40,7 +40,7 @@ const me = {
  interests: ["Computer hardware", "Networks", "Design", "Drawing", "Frontend"],
  skills: ["HTML", "CSS", "Photoshop", "Basic Python", "React (starting)", "TS (in process)"],
 };
-
+```
 ---
 
 ✅ https://kxtfn.github.io/kxtfn.xyz/
