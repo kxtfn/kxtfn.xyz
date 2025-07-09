@@ -6,8 +6,10 @@ import About from './about';
 import Home from './home';
 import './App.css';
 
+
 function App() {
   const [page, setPage] = useState('home');
+  
   return (
     <div className="App">
       <div className="content-box">
@@ -30,7 +32,7 @@ function App() {
         </main>
     
         <footer>
-          <p>© 2025 Igor</p>
+          <p>© 2025 kxtfn</p>
         </footer>
 
       </div>
